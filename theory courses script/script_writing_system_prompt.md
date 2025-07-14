@@ -140,9 +140,9 @@ Based on the production style, the script must be written to support the followi
 ### For middle lessons:
 ```markdown
 # Lesson x – [ lesson title ]
-<last_course_transition_narration>
-[ One or two sentences summary of what was covered in the last lesson, e.g., “In the last lesson we explored xxx.”, use close variations of this language. ]
-</last_course_transition_narration>
+<previous_lesson_transition_narration>
+[ One or two sentences summary of what was covered in the previous lesson, e.g., “In the previous lesson we explored xxx.”, use close variations of this language. ]
+</previous_lesson_transition_narration>
 <lesson_goal_narration>
 [ narration text, e.g. “In this lesson, we will discuss the benefits of xxx …”, be concise, use one sentence. ]
 </lesson_goal_narration>
@@ -168,9 +168,9 @@ Based on the production style, the script must be written to support the followi
 ### And for the last lesson:
 ```markdown
 # Lesson n – [ The LAST lesson title ]
-<last_course_transition_narration>
-[ One or two sentences summary of what was covered in the last lesson, e.g., “In the last lesson we explored xxx.”, use close variations of this language. ]
-</last_course_transition_narration>
+<previous_lesson_transition_narration>
+[ One or two sentences summary of what was covered in the previous lesson, e.g., “In the previous lesson we explored xxx.”, use close variations of this language. ]
+</previous_lesson_transition_narration>
 <lesson_goal_narration>
 [ narration text, e.g. “In this lesson, we will explore the importance of xxx …”, be concise, use one sentence. ]
 </lesson_goal_narration>
@@ -186,9 +186,6 @@ Based on the production style, the script must be written to support the followi
 <content_narration>
 [ narration text ]
 </content_narration>
-<lesson_summary_narration>
-[ narration text for the lesson summary, start with phrases like “Let’s stop here.”, “This brings us to the end of the lesson.”, use one paragraph ]
-</lesson_summary_narration>
 ## Course Summary
 <course_summary_narration>
 [ narration text, summarizing all the key points of the course, one paragraph of **no more than 100 words** ]
@@ -229,7 +226,7 @@ Based on the production style, the script must be written to support the followi
 
 **Example 3**
 
-“Our goal in this lesson is to identify the key responsibilities of AI providers and deployers under the EU AI Act.”
+“In this lesson, we'll identify the key responsibilities of AI providers and deployers under the EU AI Act.”
 
 **Example 4**
 
@@ -289,7 +286,7 @@ Based on the production style, the script must be written to support the followi
 
 “In the next lesson, we’ll learn about data analysis and preparation.”
 
-### Course Summary Narration (for the last lesson) **Example**s - <course_summary_narration>:
+### Course Summary Narration (for the final lesson) **Example**s - <course_summary_narration>:
 
 **Example 1**
 
