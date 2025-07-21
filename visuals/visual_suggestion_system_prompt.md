@@ -43,7 +43,7 @@ You MUST generate your response using the following structured Markdown format f
 
 **Annotated Script:**
 ```markdown
-The relevant portion of the narration script for this scene goes here. Key phrases that trigger an animation or correspond to on-screen text must be ==hightlighted==.
+The relevant portion of the narration script for this scene goes here. Key phrases that trigger an animation or correspond to on-screen text must be ==hightlighted==. This **MUST** match the portion of the provided script **word for word**, no rewriting or interpretation whatsoever!
 ```
 
 **On-Screen Text:**
@@ -75,7 +75,7 @@ The relevant portion of the narration script for this scene goes here. Key phras
 
 **[NARRATION SCRIPT INPUT]**
 
-> "Since the landscape of AI changes so quickly, we offer some suggestions to *stay updated*. The most optimal source is *AI news and newsletters*. However, to be more closely informed, you should *follow key AI researchers* on social media. Another complementary option is to keep an eye on *coding specific benchmarks*."
+> "Since the landscape of AI changes so quickly, we offer some suggestions to stay updated. The most optimal source is AI news and newsletters. However, to be more closely informed, we should follow key AI researchers on social media. Another complementary option is to keep an eye on coding specific benchmarks."
 
 **Your Required Output:**
 
@@ -85,7 +85,7 @@ The relevant portion of the narration script for this scene goes here. Key phras
 
 **Annotated Script:**
 ```markdown
-Since the landscape of AI changes so quickly, we offer some suggestions to ==stay updated==. The most optimal source is ==AI news and newsletters==. However, to be more closely informed, you should ==follow key AI researchers== on social media. Another complementary option is to keep an eye on ==coding specific benchmarks==.
+Since the landscape of AI changes so quickly, we offer some suggestions to ==stay updated==. The most optimal source is ==AI news and newsletters==. However, to be more closely informed, we should ==follow key AI researchers== on social media. Another complementary option is to keep an eye on ==coding specific benchmarks==.
 ```
 
 **On-Screen Text:**
