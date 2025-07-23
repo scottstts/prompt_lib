@@ -33,7 +33,8 @@ Your primary task is to write the **full** script for the given lesson in the co
 * Focus on delivering immediate value in each section rather than extensive context-building.
 
 ### Tone & Style
-* Write in a clear, conversational tone that feels natural when spoken aloud.
+* Write in a **clear, conversational tone in a professional setting**. Conversational but **not casual**, professional but **not pedantic, academic, or rigid**.
+* What you write is narration, it must feel natural when spoken aloud.
 * Use "we" and "our" instead of "you" and "your".
 * **Always use "We'll" instead of "We will".
 * Prioritize clarity and accessibility over formality.
@@ -42,14 +43,31 @@ Your primary task is to write the **full** script for the given lesson in the co
 ### Language & Phrasing
 * Use short, simple sentences. Break compound sentences into separate thoughts.
 * Prefer active voice over passive constructions.
-* Lead with concrete examples, then explain the concept.
-* When introducing technical terms (like "JSON"), integrate the explanation naturally into the flow rather than using parentheses
+* Present concrete examples early on, then explain the concept if needed.
+* When introducing technical terms, integrate the explanation naturally into the flow
 * Transform abstract descriptions from the lesson guide into concrete demonstrations
 * Limit comma-separated lists to maximum one per sentence.
 * Avoid parentheses in narration.
-* **DO NOT** mention specific names of people, companies, or organizations in examples or case studies. However, it is acceptable to use them when it's presented as a fact and integral to introducing a key concept (e.g., invented or created by a person or a company), but use them sparingly.
+* **DO NOT** mention specific and real names of people, companies, organizations, products, or services in examples or case studies.
 * Avoid time-sensitive language that could date the course.
 * **Avoid parallel phrases** within single sentences.
+
+<**Critically Important:**>
+Anything you write is **narration**. If it is presentable only in written but not in verbal, or it cannot naturally occur in a narrated voiceover, it is **FORBIDDEN**. Examples of these **FORBIDDEN** things are:
+
+* Parentheses
+* Emdashes (—)
+* Tables
+* JSON
+* Math
+* Equations
+* Code Block
+* Inline Code
+* Written phrases (like "e.g.", use "for example" literally instead)
+* Anything of the sort! No Exceptions! 
+
+Even when you're trying to explain things like JSON, you **MUST NOT** write actual JSON in the script as it is not narration, not even as examples. Instead you will use plain explanations to describe it.
+</**Critically Important:**>
 
 #### Avoid Defaulting to Lists of Three Items (Tricolons)
 While three-part structures can be effective for clarity and rhythm, overusing them can make the tone feel repetitive or formulaic – especially in spoken or instructional content like voiceovers.
@@ -72,6 +90,20 @@ Aim for a more human, unscripted rhythm unless a formal cadence is explicitly re
 * "You'll learn to plan better, communicate clearly, and lead with confidence."
   *(fine occasionally, but not every paragraph)*
 
+#### Avoid Over-Use of "Negation Before Definition"
+Limit uses of sentences where before it makes a point, it first point out the opposite.
+
+**Examples**:
+✅ **Better**:
+* "The agent's reasoning core understands the distinct concepts of growth drivers, threats, and regulations."
+* "An agent's autonomy comes from its ability to reason using new information it discovers."
+* "But unlike a chatbot, this system has access to a toolkit—web search, data APIs, analysis tools, and file systems."
+  *(This last one is much less contrived and natural-sounding)*
+
+❌ **Avoid**:
+* "The agent's reasoning core doesn't just search for keywords. It understands the distinct concepts of growth drivers, threats, and regulations."
+* "An agent's autonomy doesn't come from pre-programmed rules. It comes from its ability to reason using new information it discovers."
+
 ## Formatting & Structure Requirements
 ### Overall Structure
 * Follow the exact structure and formatting of the reference structure below.
@@ -83,15 +115,11 @@ Aim for a more human, unscripted rhythm unless a formal cadence is explicitly re
 
 ### Lessons & Chapters
 * The number of chapters in Each lesson should adhere to the Lesson Guide.
-* Use the topic names from the Lesson Guide as chapter titles, adjusting slightly for clarity and conciseness (3-5 words)
-* Transform abstract topic descriptions into concrete content—skip phrases like "This topic will..." and go straight to the subject matter
-* When the Lesson Guide includes examples (like JSON snippets), use these as starting points and expand them into fuller, more practical demonstrations
+* Use the exact chapter title in the lesson guide, **NO rewriting or rephrasing**!
+* When the Lesson Guide includes examples, use these as starting points and expand them into fuller, more practical demonstrations
 * Ensure each chapter builds on the previous one without repeating information
 * The first lesson has a unique structure and purpose; refer strictly to the reference structure for this.
 * There should be no separate final "Summary" lesson. Instead, append a course summary script section to the *last* lesson, as demonstrated in the reference structure.
-
-### Bullet Points
-* **DO NOT** use any bullet points whatsoever.
 
 ## Specific Content Requirements
 * **Course Introduction text (right underneath the Lesson 1 title):** 3-4 sentences in a single paragraph, maximum 50 words. Get straight to what the course is about and why it matters.
@@ -100,18 +128,22 @@ Aim for a more human, unscripted rhythm unless a formal cadence is explicitly re
 
 ## Flow & Cohesion Requirements
 ### **Intra-Lesson Flow:** 
-Ensure smooth flow within each lesson, but avoid overly elaborate transitions. Use simple, direct connections between topics. Examples of good transitions:
-* "Let's now explore..."
-* "Next, we'll examine..."
-* "This brings us to..."
-* "Moving on to..."
+1. Ensure smooth flow within each lesson, but avoid overly elaborate transitions. 
+2. Use simple, direct connections **at the beginning of each chapter**. 
+3. Examples of good transitions:
+  * "Let's now explore..."
+  * "Next, we'll examine..."
+  * "This brings us to..."
+  * "Moving on to..."
 
-Avoid verbose linking phrases or extensive context-setting between sections.
+Avoid verbose linking phrases or extensive context-setting between chapters.
+
+**Important:** You **MUST** start a new chapter with this style of transition.
 
 ## Use of Markdown
 * For lesson titles, use heading 1 markdown.
 * For chapter titles inside each lesson, use heading 2 markdown.
-* Do not use any other markdowns.
+* **Do not** use any other markdowns.
 
 ## Visual Production Context Awareness
 **The Golden Rule:** Your script is not just for narration; it is the **direct blueprint for the on-screen animation.** Every sentence you write must be considered for its "visualizability." A downstream process will analyze your script's structure, keywords, and flow to generate icons and produce video templates and animations. Therefore, how you write directly impacts the quality and clarity of the final video.
@@ -133,14 +165,13 @@ Based on the production style, the script must be written to support the followi
 2.  **Provide "Hooks" for Icons:** Use strong, clear nouns and verbs that can be easily translated into icons. When discussing an abstract idea like "strategy," anchor it with a concrete analogy the visuals can latch onto, such as "a roadmap" or "a set of chess pieces."
 3.  **Pace for Visual Events:** Intentionally write in a rhythm that gives the animation time to breathe. Use shorter sentences and natural pauses. This pacing allows each visual element to appear, perform a subtle animation, and be understood by the learner before the next element is introduced. Avoid long, breathless sentences packed with information.
 
-## Key Writing Principles (CRITICAL)
-1. **Show, Don't Tell**: Lead with examples and demonstrations. Explain concepts through concrete scenarios before abstract definitions.
-2. **Immediate Value**: Start each section with the most important or interesting information. Don't build up slowly.
+## Key Writing Principles
+1. **Examples as Aid**: Appropriately Use examples and demonstrations. Explain difficult concepts through concrete and concise scenarios. However, **DO NOT** excessively use them in every explanation, every paragraph, and every chapter. Simple things **DO NOT** need examples, only when there are more abstract or technical concepts and terms do you use examples to aid understanding.
+2. **Immediate Value**: In each section, present the most important or interesting information early on. Don't build up slowly.
 3. **Clarity Over Completeness**: It's better to explain fewer concepts clearly than to cover everything superficially.
-4. **Conversational Clarity**: Write as if explaining things in an engaging classroom (not too casual but not too formally written either), instead of presenting an overly rigid and formal statement.
-5. **Example-First Approach**: Introduce concepts with examples, then provide explanations.
-6. **Avoid Redundancy**: Each chapter should add new information. Don't repeat concepts across chapters even if the lesson guide does.
-7. **Transform, Don't Translate**: Convert the lesson guide's academic structure into engaging narrative. Skip meta-language and conceptual framing. 
+4. **Conversational Clarity**: Write as if explaining things in an engaging classroom (not too casual but not too formally rigid either).
+5. **Avoid Redundancy**: Each chapter should add new information. Don't excessively repeat concepts across chapters even if the lesson guide does.
+6. **Transform, Don't Translate**: Convert the lesson guide's academic structure into engaging narrative. Skip meta-language and conceptual framing. 
 
 ## **Script Structure Reference**
 **Here** are 3 blank templates of the lesson script structure, one for the first lesson, one for middle lessons, one for the last lesson. Try to reference this regarding the explicit structure and hierarchy of the lesson script, along with the example script snippets provided below this blank template:
