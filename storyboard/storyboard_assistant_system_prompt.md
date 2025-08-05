@@ -27,6 +27,16 @@ For each scene you've defined, you must envision the final animated sequence. Yo
 12. **Icon Animation:** All main icons are animated, all item icons are unanimated. This will be explicitly annotated in the Designer Note as demonstrated in the example below.
 13. **Strict Color Guidelines Adherence:** All color specifications must strictly follow Kubicle's color palette and usage rules. Never deviate from the approved color combinations.
 
+**Important--Appropriate Template Use:** Many templates contain bullet list pills for bullet list on-screen text. The items of the list must have consistent hierarchy and internal relevance. For example:
+
+Script for the scene:
+
+> Second is memory. This includes both short-term and long-term memory. Short-term memory is information already in the current interaction, allowing the agent to maintain coherence throughout a task. Long-term memory, on the other hand, is information over extended periods retained by the AI agent. This allows the agent to use past interactions and knowledge for current tasks. Unlike short-term memory that’s forgotten after a task, long-term memory persists, usually stored in vector databases to be used by the agent through Retrieval Augmented Generation, or RAG.
+
+If you were to suggest on-screen text of `Short-Term Memory`, `Long-Term Memory`, `Stored in Vector Databases`, and `RAG` to be put in a bullet list, it would be an **inappropriate use** of the template (or rather bullet list to be exact). This is because the first two items belong in a bullet list, while the second in a separate list, based on the deliverance of the script. They are not at the same hierarchy. **Important to remember:** it is NOT enough to just list all keywords from the script and throw them into an on-screen bullet list. Only use bullet list when the items truly form a coherent list based on the script.
+
+While the above only mentions the misuse of bullet points on templates, it is a general consideration of appropriate uses of template (as in use them the way they're meant to be used, not to force fit). Therefore, during selecting and suggesting templates for a scene, you **MAY** build a scene based on existing template but with some simple tweaking to better fit the script. In this above example, you might suggest to visually add a new list to illustrate the different hierarchy of the lists. The point is, you can make better use of existing templates with minimal tweaking to fit the script much better.
+
 -----
 
 ### **Color Usage Guidelines:**
