@@ -1,6 +1,6 @@
 # Template Documentation Collection
 
-This document contains documentation for 27 templates.
+This document contains documentation for 28 templates.
 
 ---
 
@@ -8,15 +8,22 @@ This document contains documentation for 27 templates.
 
 ## Animation Breakdown
 
-The animation for Template 1 is characterized by energetic, bouncy entrances followed by a clean, structured cascade, creating a dynamic yet organized feel.
+The animation for Template 1 builds the layout in a methodical and clean sequence, using coordinated slide animations to create a professional and structured flow. The sequence directs attention from the main title to the list items in a cascading manner.
 
-1.  **Title Container Entrance:** The sequence begins with the main title container animating into the top-left corner. It slides in diagonally from off-screen (top-left) with a noticeable and playful bounce or overshoot effect. The motion is fast and springy, quickly settling into its final position to establish the primary context.
+1.  **Title Entrance:** The sequence begins with the main title container, a large rounded rectangle, animating into the top-left corner. It slides in diagonally from the top-left edge with a smooth ease-out curve, starting fast and decelerating gently as it settles into its final position.
 
-2.  **List Connector & Item Reveal:** Immediately after the title settles, the list section animates in.
-    *   A thin, vertical line element, acting as a timeline or connector for the list items, animates by "drawing" itself downwards from the position of the first icon.
-    *   Following the line, the list items appear sequentially from top to bottom. Each item (composed of an icon placeholder and a text container) slides in horizontally from the left.
-    *   The slide-in motion for the list items is crisp and uses a smooth ease-out curve, without the bounce seen in the title animation.
-    *   There is a consistent, short stagger between the appearance of each list item, creating a rhythmic and easy-to-follow cascading effect that directs the viewer's attention down the list. The overall pacing is quick and efficient.
+2.  **List Scaffolding:** Immediately after the title lands, the foundation for the list is set. A small horizontal line, which is the base of the first item's icon structure, slides in quickly from the right. This motion is swift and establishes the starting point for the list items.
+
+3.  **First List Item Reveal:** The first list item appears using a coordinated, dual-axis animation:
+    *   The square icon placeholder slides vertically **upward** from the horizontal line established in the previous step.
+    *   Simultaneously, the corresponding rectangular text placeholder slides horizontally **in from the right**.
+    *   Both elements move with a synchronized, smooth ease-out motion and arrive at their final positions at the same time.
+
+4.  **Sequential Cascade (Remaining Items):** The rest of the list items animate in sequentially with a noticeable, even stagger between each, creating a waterfall effect. The animation for each subsequent item is a two-part process:
+    *   First, a vertical connector line is "drawn" downwards from the bottom of the previous icon placeholder.
+    *   As the line completes, the next item's icon placeholder slides **up** into place, and its text placeholder slides **in from the right**, mirroring the animation of the first list item. This pattern repeats until all items are on screen.
+
+5.  **Overall Pacing and Feel:** The animation hierarchy is clear, establishing the title before methodically building the list. The staggered timing is consistent, giving the reveal a rhythmic and organized pace. The motion is crisp and precise, relying entirely on slide mechanics without any fades, scales, or bounce effects.
 
 ---
 
@@ -24,19 +31,17 @@ The animation for Template 1 is characterized by energetic, bouncy entrances fol
 
 ## Animation Breakdown
 
-The animation for Template 2 is executed in a swift, clean, and hierarchical sequence, with distinct motions for different element types to guide the viewer's focus effectively.
+The animation for Template 2 builds the layout in a dynamic and hierarchical sequence, using bouncy and smooth motions to create an engaging flow.
 
-1.  **Initial Container Entrance:** The sequence begins with two elements animating in almost simultaneously, establishing the layout's primary boundaries.
-    *   The top-left tag container slides in rapidly from the left edge with a smooth ease-out motion.
-    *   Concurrently, the white, rounded background shape for the icon container slides in from the right edge, also with a crisp ease-out curve.
+1.  **Title Container Pop-in:** The animation begins with the main title container in the top-left corner. It pops into place with a quick scale-up and a subtle downward slide motion. The movement has a crisp ease-out curve, making it feel energetic and establishing the primary focus point.
 
-2.  **Icon Pop and Settle:** Once the white background shape on the right is in position, the circular icon placeholder animates. It scales up from its center, starting at 0% and growing to its final size. The animation includes a distinct overshoot or bounce effect, where it scales slightly past 100% before settling back, giving it a dynamic and engaging pop.
+2.  **Connector Line Wipe:** Immediately following the title, a horizontal connector line animates, wiping or growing smoothly from left to right. This visually links the title area to the upcoming list content.
 
-3.  **Staggered Text Reveal:** After the main structural containers and the icon are in place, the text block on the left animates in with a staggered effect.
-    *   First, the main title line slides into place from the left with a quick and smooth ease-out motion.
-    *   Immediately following, with a very short delay, the subtitle line slides in from the left using the exact same motion profile. This slight stagger creates a clean, cascading effect that feels polished and intentional.
+3.  **Sequential List Item Reveal:** The core of the animation is the sequential reveal of the list items. They appear one by one from top to bottom, with a noticeable delay between each, creating a clean cascading effect. Each list item has a distinct two-part entrance animation:
+    *   **Bouncy Icon Drop:** The icon container on the left animates first for each list item. It drops from above the connector line and lands with a pronounced, elastic bounce, giving the animation a playful and lively character.
+    *   **Smooth Text Field Slide:** As the icon lands, its corresponding text field container slides in smoothly from the right with a clean ease-out motion. This secondary animation is less dramatic than the icon drop, ensuring the text is presented clearly.
 
-The entire sequence is quick and efficient, with all elements settling into their final positions within approximately one second. The motion is characterized by smooth sliding for containers and text, contrasted with a dynamic, bouncy scaling for the main icon.
+4.  **Overall Pacing and Flow:** The staggered timing between list items directs the viewer's eye down the list in a controlled manner. The combination of the bouncy icon drop and the smooth text slide creates a sophisticated yet energetic rhythm for the entire composition.
 
 ---
 
@@ -44,20 +49,19 @@ The entire sequence is quick and efficient, with all elements settling into thei
 
 ## Animation Breakdown
 
-The animation for Template 3 is characterized by a dynamic, full-screen takeover with layered, directional entrances for its components, followed by a symmetrical and staggered exit sequence.
+The animation for Template 3 is swift and dynamic, establishing the layout with a series of coordinated and overlapping motions that complete in under a second.
 
-1.  **Initial Scene Wipe & Icon Entrance:** The sequence begins with a dark background panel sliding in swiftly from the right edge to cover the entire screen. This wipe is a fast, smooth transition. Occurring almost simultaneously, the large primary graphic container animates in at the center-right. It scales up from a smaller size while fading in from 0% to 100% opacity. This scaling motion has a distinct and energetic spring or overshoot effect, causing it to slightly exceed its final size before settling.
+1.  **Initial Layout Entrance:** The animation kicks off with the near-simultaneous entrance of two key structural elements.
+    *   The rectangular tag in the top-left corner slides in diagonally from the top-left. Its motion is rapid with a very subtle bounce or overshoot as it settles into place.
+    *   Concurrently, the large, rounded white container on the right slides in smoothly from the right edge of the frame, driven by a clean ease-out curve.
 
-2.  **Secondary Element Entrances:** Once the background and main graphic are in place, the supporting elements enter with a slight delay.
-    *   First, a horizontal bar container (for text) slides down smoothly from the top edge, settling in the upper left quadrant. The motion has a gentle ease-out curve, giving it a soft landing.
-    *   Shortly after, a circular image placeholder slides up from the bottom edge, positioning itself below the text bar. This motion is also very smooth with an ease-out feel, creating a balanced, staggered reveal.
+2.  **Hierarchical Text Reveal:** Overlapping with the container's entrance, the text elements animate in sequentially from left to right.
+    *   First, the main title line slides in from the left with a crisp and fast motion.
+    *   Immediately following, the subtitle/description line slides in along the same path, slightly delayed. This staggered timing creates a clean, hierarchical flow, drawing the eye from the title to the description.
 
-3.  **Static Hold:** All elements hold their final positions for the main duration of the template, allowing the viewer to absorb the presented content.
-
-4.  **Staggered Exit Animation:** The outro is a coordinated reversal of the entrance sequence.
-    *   The circular image placeholder initiates the exit by sliding down and off-screen.
-    *   The top text bar follows, sliding up and off-screen.
-    *   Finally, the primary graphic container simultaneously scales down into the center and fades out, while the dark background panel slides away to the right, revealing the original starting state. This concludes the animation with a clean and symmetrical departure.
+3.  **Icon Pop-in:** The animation sequence concludes with a final, energetic accent.
+    *   Once the white container is in place, the circular icon placeholder inside it appears. Its animation is a combination of a rapid scale-up (from 0% to 100%) and a simultaneous fade-in (from 0% to 100% opacity).
+    *   The scaling motion includes a distinct overshoot, where the circle expands slightly beyond its final size before snapping back. This gives the icon a lively and bouncy "pop" effect that draws final attention to the right side of the template.
 
 ---
 
@@ -65,22 +69,20 @@ The animation for Template 3 is characterized by a dynamic, full-screen takeover
 
 ## Animation Breakdown
 
-The animation for Template 4 unfolds in a clean, multi-stage sequence that guides the viewer's attention from a central focal point to a structured list. The motion is smooth and modern, with a clear hierarchy.
+The animation for Template 4 is characterized by clean, symmetrical, and quick slide transitions that build and deconstruct the layout in a distinct sequence.
 
-1.  **Initial Element Entrance:** The sequence begins with two simultaneous animations.
-    *   A hexagonal image placeholder scales up and fades in at the center of the screen. The motion is quick with a soft ease-out curve, establishing the primary visual subject.
-    *   Concurrently, a rounded rectangular title container slides in from the left edge of the screen to its position in the top-left corner. This motion is crisp and fast.
+1.  **Background Reveal:** The animation begins with a dark background panel sliding in swiftly from the right edge, wiping across the screen to set the stage. The large icon placeholder on the right is revealed as part of this panel and remains static.
 
-2.  **Layout Transition:** After a brief hold, the hexagonal image placeholder smoothly slides horizontally from the center to its final position on the left side of the screen. This translation uses an ease-in-out curve, making the movement feel deliberate and controlled, creating space for the upcoming content.
+2.  **Symmetrical Element Entrance:** Once the background is in place, two elements animate in simultaneously with opposing vertical motion:
+    *   **Circular Image Placeholder:** A circular placeholder on the left slides up smoothly from the bottom edge.
+    *   **Horizontal Bar Placeholder:** A rectangular placeholder for a title or name slides down from the top edge, positioning itself directly above the circular placeholder.
+    *   **Timing and Feel:** Both elements move at the same speed with a gentle ease-out curve, creating a satisfying effect as they arrive in their final positions concurrently.
 
-3.  **List Container Reveal:** Once the image placeholder settles, five rounded rectangular list item containers animate in sequentially from top to bottom.
-    *   Each container appears to emerge from behind the hexagonal image placeholder, wiping or expanding from left to right to its full width.
-    *   The animation has a distinct, rhythmic stagger between each item, creating a smooth cascading or waterfall effect that is pleasing to the eye.
+3.  **Static Hold:** The fully composed template holds its state, allowing the viewer to focus on the content.
 
-4.  **Sequential Content Population:** After all five list containers are in place, their internal content animates in, also in a staggered, top-to-bottom sequence.
-    *   For each list item, a circular icon placeholder on the left executes a rapid 360-degree flip on its Y-axis.
-    *   As the icon completes its flip, the corresponding text placeholder to its right fades and slides in from the left.
-    *   This synchronized icon flip and text reveal happens for each list item in succession, creating a satisfying "checking off a list" effect that concludes the animation.
+4.  **Coordinated Exit:** The outro animation begins with the coordinated exit of the elements on the left. The circular placeholder and the horizontal bar above it slide in unison horizontally off the left side of the screen.
+
+5.  **Final Background Transition:** After a brief pause, the entire dark background panel (including the static icon placeholder on the right) slides off-screen to the right, reversing the initial entrance animation and concluding the sequence.
 
 ---
 
@@ -88,25 +90,20 @@ The animation for Template 4 unfolds in a clean, multi-stage sequence that guide
 
 ## Animation Breakdown
 
-This animation for Template 5 constructs a scene in distinct, well-paced phases, focusing the viewer's attention first on the overall layout and then on the details within the device mockup.
+The animation for Template 5 builds the layout in three distinct, sequential phases, creating a clear visual hierarchy with a modern and fluid feel. The motion guides the viewer's attention from the main subjects to the detailed list items.
 
-1.  **Panel Entrance:** The sequence begins with two large, rounded rectangular panels sliding in from opposite sides to form a split-screen background. The larger, lighter panel slides in from the left, and the smaller, darker panel slides in from the right. The motion is smooth and synchronized, with a gentle ease-out curve, establishing the scene's foundation in a single, fluid motion.
+1.  **Foundation Reveal:** The animation begins with two elements entering concurrently.
+    *   The central, hexagonal image placeholder scales up from approximately 80% to 100% while simultaneously fading in from 0% to 100% opacity. This motion is smooth with a gentle ease-out curve, establishing it as the primary focal point.
+    *   Simultaneously, the title banner in the top-left corner slides in horizontally from the left edge of the screen. Its movement is quick and crisp, settling into place as the image placeholder finishes its entrance.
 
-2.  **Device Mockup Introduction:** Once the background panels are in place, a smartphone mockup materializes on the right-hand panel. It animates in with a quick scale-up and fade-in effect. The scaling has a subtle overshoot or bounce, where it grows slightly larger than its final size before settling, giving it a dynamic and tangible presence.
+2.  **Cascading List Bar Entrance:** After the foundational elements are in place, there is a brief pause. Then, a series of five rounded horizontal list item containers animate in sequentially from top to bottom.
+    *   Each bar slides in swiftly from the right side of the screen.
+    *   The animation is staggered with a short delay between each bar, creating a smooth and satisfying cascading or "waterfall" effect. The motion has a distinct ease-out feel, slowing as it reaches its final position.
 
-3.  **Screen Unlock Sequence:** The animation transitions to the phone's screen, simulating an unlock process.
-    *   A central placeholder icon scales up into view.
-    *   A text prompt and an associated line indicator fade in below the icon.
-    *   After a brief pause, the prompt and line fade out, and the entire lock screen view (including the icon) slides swiftly upwards and off the screen.
-
-4.  **UI Element Cascade:** As the lock screen clears, the main content area is revealed, and its user interface elements animate into place in a rapid, staggered cascade.
-    *   The main media content placeholder (the video area) is already present, having slid up with the unlock transition.
-    *   The bottom navigation bar slides up from the bottom edge of the screen.
-    *   The vertical stack of action icons (like, comment, etc.) slides in from the right edge of the screen.
-    *   The text block placeholders (username, description) slide in from the left edge of the screen.
-    *   This sequence of quick, crisp slide animations directs the eye around the interface in a natural reading pattern.
-
-5.  **Outro and Reset:** To conclude, the large light-colored panel on the left smoothly slides back out to the left, revealing the full dark background. The phone mockup remains stationary, now centered on the full-screen view, holding the final composition before the animation loops.
+3.  **Sequential Content Population:** Once all list bars have settled, their content populates in a final, detailed cascade that mirrors the entrance of the bars themselves. The animation proceeds from the top bar to the bottom bar. For each list item:
+    *   First, the circular icon placeholder on the left of the bar executes a snappy "pop-in" animation, rapidly scaling up from 0% to 100%. A checkmark icon inside it appears concurrently.
+    *   Immediately following the icon's appearance, the corresponding text placeholder slides into view from left to right, smoothly filling the rest of the bar.
+    *   This two-step content reveal repeats for each list item down the line, maintaining a consistent, rhythmic pace and completing the template build.
 
 ---
 
@@ -114,20 +111,25 @@ This animation for Template 5 constructs a scene in distinct, well-paced phases,
 
 ## Animation Breakdown
 
-The animation for Template 6 demonstrates a fluid and responsive chat interface transformation, guiding the user's focus from input to response.
+The animation for Template 6 unfolds in a series of clean, hierarchical stages, simulating a phone interface coming to life. The motion is smooth and centers on a main device container.
 
-1.  **Input Field Expansion:** The sequence begins with the main input container, which is initially in a compact state. It animates by smoothly expanding horizontally to its full width. This expansion uses a quick and decisive ease-out curve, creating a responsive feel as it settles into place. The internal button and icon placeholders adjust their positions concurrently during this expansion.
+1.  **Device Frame Entrance:** The animation begins with a two-panel background. From the right edge of the dark panel, a mobile device frame slides horizontally into the center. The movement is fluid with a distinct ease-out curve, allowing it to settle smoothly into its final position.
 
-2.  **Prompt Submission Transition:** Upon submitting the prompt, a multi-part transformation occurs in parallel:
-    *   **Input Container Morph:** The main input container rapidly shrinks in both width and height, simultaneously sliding up and to the right to become the user's prompt bubble. The motion is fluid with a gentle ease-in-out curve.
-    *   **Button Fade-Out:** During this transformation, the left-side icon button and the central pill-shaped buttons quickly fade to full transparency and disappear.
-    *   **Send Button State Change:** The "send" button on the far right loses its icon and morphs into a loading or "thinking" state indicator, signaling that the query has been processed.
+2.  **Lock Screen Activation:** Once the device frame is stationary, its screen activates.
+    *   A central placeholder icon animates into view with a combined scale-up and slight rotation effect. It has a subtle bounce or overshoot, giving it a playful and dynamic feel.
+    *   Immediately following the icon, a line of placeholder text fades in smoothly at the bottom of the screen.
 
-3.  **Bot Response Entrance:** Immediately following the user prompt bubble settling into its position, the bot's response area animates into view with a clear sequence:
-    *   **Avatar Appearance:** A circular bot avatar icon fades in and scales up from zero on the left. It exhibits a subtle and springy overshoot or bounce effect as it lands in its final position, giving it a lively feel.
-    *   **Response Bubble Reveal:** A dark, rectangular response bubble animates in right next to the avatar. It scales up and expands from left to right with a smooth ease-out motion, appearing to emerge directly from the side of the avatar icon.
+3.  **Unlock Transition:** The template simulates a "swipe to unlock" action.
+    *   The placeholder text on the lock screen fades out first.
+    *   The entire lock screen assembly (icon and home indicator) then slides rapidly upwards, disappearing off the top of the device screen.
+    *   Simultaneously, the main content screen slides up from the bottom of the device screen, perfectly synchronized to replace the lock screen in a single, seamless transition.
 
-4.  **Content Population:** Once all structural containers are in place, the placeholder text animates in. Both the user's prompt and the bot's response are revealed using a quick, character-by-character typing animation, which completes the interaction sequence.
+4.  **UI Content Population:** After the main screen is revealed, its interface elements animate in with a clear, staggered sequence to guide the viewer's eye.
+    *   **Bottom Navigation Bar:** The main navigation bar at the bottom of the screen slides up from the bottom edge.
+    *   **Side Action Icons:** A vertical stack of placeholder icons on the right side animates in. They enter with a staggered delay from top to bottom, each sliding in from the right with a soft fade. This creates a gentle cascade effect.
+    *   **Lower-Left Text Block:** A multi-line text block at the bottom-left corner slides in from the left edge while fading into view.
+
+5.  **Hold and Exit:** All elements hold their final positions to display the complete template. The animation concludes as the entire device frame element slides back to the right, cleanly exiting the scene in the reverse manner of its entrance.
 
 ---
 
@@ -135,17 +137,18 @@ The animation for Template 6 demonstrates a fluid and responsive chat interface 
 
 ## Animation Breakdown
 
-The animation for Template 7 creates a vertical list of pill-shaped containers using a fluid, top-to-bottom cascading reveal. The sequence is characterized by a unique "preview" effect that introduces each subsequent item before it animates into place.
+The animation for Template 7 is centered around a chat interface, detailing the sequence of a user sending a message and receiving a response. The motion is fluid, responsive, and uses clear visual cues to denote state changes.
 
-1.  **Initial Element Entrance:** The sequence begins with the first (topmost) pill container materializing in the center. It animates in by scaling up from approximately 95% to 100% while simultaneously fading in from 0% to 100% opacity. This entrance is quick and smooth, with a gentle ease-out curve.
+1.  **Initial State & Responsive Input:** The template starts with a rounded rectangular input bar. As the user types, the main container of this bar animates its width, smoothly expanding horizontally to the right to accommodate the growing text. This expansion uses a gentle ease-out curve, creating a fluid and responsive feel.
 
-2.  **Sequential Cascade (Items 2-4):** The remaining list items are revealed one by one in a staggered, sequential cascade. Each item follows a distinct two-part pattern:
-    *   **Preview State:** As one pill settles into its final position, a semi-transparent, ghost-like preview of the *next* pill appears directly below it. This preview element slides down slightly and fades in to about 30% opacity.
-    *   **Activation State:** This ghosted preview then becomes the active element. It animates smoothly down into its designated list position while simultaneously transitioning to 100% opacity. This creates the illusion that each pill is being drawn down from the one above it.
+2.  **Message Sending Sequence:** When the circular send button on the far right is activated, a multi-part animation occurs:
+    *   **Prompt Elevation:** The newly created user message bubble (containing the typed prompt) detaches from the input bar. It animates upwards and slightly to the right, simultaneously shrinking in scale to settle into its final position in the chat log. The motion is quick with a distinct ease-out.
+    *   **Input Bar Reset:** Concurrently, the main input bar at the bottom transforms. The placeholder text, along with the pill-shaped button containers and the circular icon on the left, all fade out smoothly. The send button icon briefly animates upwards and out of view, and the button's background changes to a solid fill, indicating a loading or processing state.
 
-3.  **Timing and Pacing:** Each pill's animation cycle (preview and activation) is evenly timed, creating a rhythmic and predictable flow. The staggered delay between each item is short but distinct, ensuring the cascade effect is clear without feeling slow. The overall motion is fluid and continuous, with no hard stops.
-
-4.  **Finalization:** The animation concludes once the last pill has animated into its final, solid state. The ghosted preview that appears below the final item simply fades out to complete the sequence.
+3.  **Response Arrival Sequence:** After a brief pause, the bot's response animates into view from the left side of the screen.
+    *   **Icon Appearance:** A circular icon placeholder for the bot fades in while scaling up from 0% to 100%. This scaling animation has a subtle overshoot or bounce effect, giving it a playful and organic feel as it settles into place.
+    *   **Bubble Expansion:** Immediately following the icon's appearance, the main response bubble container animates. It rapidly expands outwards from a point near the right edge of the icon, growing to its final dimensions with a smooth ease-out curve. This creates the effect of the message originating from the bot's avatar.
+    *   **Content Population:** Once the response bubble container has fully expanded and settled, the text content populates inside it, typically with a typewriter effect.
 
 ---
 
@@ -153,17 +156,17 @@ The animation for Template 7 creates a vertical list of pill-shaped containers u
 
 ## Animation Breakdown
 
-The animation for Template 8 reveals three list items in a clean, sequential, and energetic manner, guiding the viewer's attention from top to bottom. The primary motion is focused on the icon placeholders, which have a distinct and satisfying reveal.
+This animation for **Template 8** showcases a dynamic and sequential list-building effect, where each new item is added with a smooth, synchronized motion.
 
-1.  **Sequential Item Animation:** The template's three list items animate in a staggered, top-to-bottom sequence. The animation for the second item begins shortly after the first, and the third begins after the second, creating a smooth and rhythmic cascading effect.
+1.  **Initial State:** The animation begins with a single, centered, pill-shaped container on the screen.
 
-2.  **Icon Container Reveal:** The most prominent animation is the reveal of the circular icon container on the left of each list item. This element animates into view using a dynamic radial wipe. The wipe moves in a counter-clockwise direction, starting from the 12 o'clock position. The motion has a snappy, elastic easing, concluding with a subtle overshoot or bounce as the circle completes its shape.
+2.  **Core Item Addition Mechanic:** The template reveals additional list items one by one using a repeating, elegant sequence. For each new item added:
+    *   **List Repositioning:** The entire existing stack of pill containers slides upward in unison to create space for the incoming item. The movement is fluid with a gentle ease-in-out curve.
+    *   **New Item Entrance:** The new pill container appears from beneath the last item in the list. Its animation is a combination of a short slide downwards and a fade-in from 0% to 100% opacity. The entrance is perfectly timed with the upward slide of the existing list, creating a seamless "unfolding" or "dispensing" effect.
 
-3.  **Content Population:** Occurring almost simultaneously with the completion of the circular wipe, the content for each list item animates in:
-    *   **Icon Placeholder:** The icon inside the circle scales up from the center while fading in. This scale animation has a gentle, bouncy quality, making it "pop" into place.
-    *   **Text Placeholder:** The text block to the right of the icon performs a very quick and subtle animation, sliding up a few pixels while fading into full view. This motion is crisp and timed to coincide with the icon's appearance.
+3.  **"Next Item" Preview Effect:** A key characteristic of this animation is the preview of the next item. As a new, fully opaque item animates into its final position, a semi-transparent "ghost" version of the *following* item also animates in below it, using the same slide-down and fade-in motion. This ghost item remains at a low opacity, serving as a visual hint of the next element in the sequence. In the next step, this ghosted placeholder is replaced by the actual, fully opaque item.
 
-4.  **Pacing and Hierarchy:** The animation's pacing is quick and responsive. The staggered delay between each list item is consistent and brief, ensuring the entire sequence completes smoothly without long pauses. The hierarchy clearly establishes the icon area first with the dynamic wipe, followed immediately by the supporting icon and text content, creating a cohesive and polished feel for each item in the list.
+4.  **Timing and Pacing:** The animation is rhythmic and evenly paced. Each list item is added with a consistent delay, creating a clean, cascading reveal. The entire sequence is smooth and continuous, with no abrupt starts or stops, guiding the viewer's focus down the list as it builds. The synchronization between the upward-moving list and the downward-revealing new item is precise, giving the animation a polished and cohesive feel.
 
 ---
 
@@ -171,16 +174,24 @@ The animation for Template 8 reveals three list items in a clean, sequential, an
 
 ## Animation Breakdown
 
-The animation for Template 9 unfolds in a quick, clean, and hierarchical sequence, directing attention from the main element to the supporting list items.
+The animation for Template 9 features a dynamic, sequential reveal of content within three pre-existing list item containers. The sequence flows from top to bottom, with each item's animation starting with a slight, overlapping delay to create a smooth cascading effect.
 
-1.  **Main Icon Container Entrance (0.0s - 0.4s):** The large, rounded rectangular container on the left slides in rapidly from the left edge of the screen. The motion is crisp and features a distinct ease-out curve, causing it to slow smoothly as it settles into its final position.
+1.  **First Item Reveal:** The animation begins with the top item.
+    *   **Icon Animation:** A colored arc rapidly wipes clockwise around the circular placeholder's circumference. As the wipe completes, it smoothly reveals the final icon inside. The motion is fluid and continuous.
+    *   **Text Animation:** Simultaneously, the text placeholder fades in while subtly sliding up from a slightly lower position. This animation uses a gentle ease-out curve, settling softly into place.
 
-2.  **Placeholder Icon Pop-in (0.2s - 0.6s):** Overlapping slightly with the container's arrival, the placeholder icon inside animates. It scales up from the center with an energetic "pop" motion, including a noticeable overshoot effect where it scales slightly past its final size before settling back down. This gives the icon a bouncy and engaging feel.
+2.  **Second Item Reveal:** Following a brief stagger, the second item animates.
+    *   **Icon Animation:** The icon's internal elements (e.g., clock hands) perform a rapid clockwise spin. The spinning motion quickly decelerates with a crisp ease-out effect, stopping at their final position.
+    *   **Text Animation:** The corresponding text performs the same fade-and-slide-up motion as the first item, maintaining visual consistency.
 
-3.  **Cascading List Reveal (0.4s - 1.5s):** Once the main container is in place, the list items on the right animate in sequentially. They appear one by one, from top to bottom, with a short, consistent stagger between each item. Each list item container executes a combination of two animations simultaneously:
-    *   **Slide:** It slides upwards from a position slightly below its final destination.
-    *   **Fade:** It fades in from 0% to 100% opacity.
-    This combined motion creates a smooth, elegant, and flowing "unfurling" effect that guides the viewer's eye down the list. The animation for each individual item is quick, but the staggered delay creates a pleasant overall pace.
+3.  **Third Item Reveal:** The final item animates, completing the cascade.
+    *   **Icon Animation:** The icon features a quick 3D "page flip" effect, where a component of the icon appears to flip down from the top edge to reveal its final state. The motion is sharp and distinct.
+    *   **Text Animation:** The text placeholder animates in using the established fade-and-slide-up effect.
+
+**Overall Motion Characteristics:**
+*   **Hierarchy and Timing:** The animation uses a clear top-to-bottom hierarchy, guided by the staggered timing between each list item. This creates a natural and engaging flow for the viewer.
+*   **Pacing:** The entire sequence is quick and energetic, with each sub-animation completing in under a second.
+*   **Parallelism:** Within each list item, the icon and text animations occur in parallel, creating a cohesive and polished feel for each reveal.
 
 ---
 
@@ -188,21 +199,13 @@ The animation for Template 9 unfolds in a quick, clean, and hierarchical sequenc
 
 ## Animation Breakdown
 
-The animation for Template 10 is characterized by a swift entrance, a primary looping motion, and a clean exit. The sequence establishes a dynamic, continuously moving focal point.
+The animation for Template 10 unfolds in a clean, sequential manner, using smooth sliding and popping motions to build the layout with a clear visual hierarchy.
 
-1.  **Main Stage Entrance:** The entire template, encapsulated within a large, dark, rounded-corner container, slides in rapidly from the right side of the screen. This motion has a distinct and smooth ease-out curve, quickly establishing its position before settling.
+1.  **Main Visual Container Entrance:** The sequence begins with the large, rounded rectangular container sliding in from the left edge of the screen. The motion is fluid with a prominent and satisfying elastic overshoot, causing it to bounce slightly before settling into its final position. This energetic entrance immediately draws attention to the primary visual area.
 
-2.  **Simultaneous Element Reveal:** Occurring in parallel with the main container's entrance, two static elements animate into their final positions.
-    *   **Title Tag:** A small title container in the top-left corner slides down from the top edge of the main container.
-    *   **Content Area:** A large rectangular placeholder container at the bottom slides up from the bottom edge of the main container.
-    *   Both of these animations are very quick, masked by the main container's frame, and conclude as the main container comes to a stop.
+2.  **Icon Placeholder Reveal:** As the main container completes its entrance animation, the icon placeholder inside it materializes. It animates with a quick "pop" effect, scaling up from the center and fading in simultaneously. This animation is fast and crisp, adding a secondary layer of motion that happens within the established container.
 
-3.  **Continuous Marquee Animation:** The central feature of this template is a horizontal row of pill-shaped containers that are already in motion as the template enters.
-    *   **Motion:** These pill containers scroll in a seamless, perpetual loop from right to left.
-    *   **Pacing & Easing:** The movement is perfectly linear, with no easing, creating a consistent and steady "ticker" or marquee effect. As one container exits the left boundary, another seamlessly enters from the right to maintain the continuous flow.
-    *   **Content:** The icon and text placeholders within each pill are static relative to their container and scroll along with it.
-
-4.  **Exit Sequence:** The exit animation is a direct reversal of the entrance. The entire main container, along with all its child elements (title, bottom container, and the still-scrolling pills), slides smoothly off-screen to the right with an ease-in curve.
+3.  **Sequential List Item Cascade:** Following the main visual, the list items on the right animate into view one by one. Each list item (composed of a circular placeholder and an adjacent rectangular text area) slides up from the bottom of the screen. The animation is staggered, with each subsequent item appearing after a short, consistent delay. This creates a smooth and rhythmic cascading or "waterfall" effect that guides the viewer's eye down the list. The slide motion for each item is smooth with a distinct ease-out curve, coming to a crisp stop without any bounce.
 
 ---
 
@@ -210,20 +213,20 @@ The animation for Template 10 is characterized by a swift entrance, a primary lo
 
 ## Animation Breakdown
 
-The animation for Template 11 is built on a symmetrical, dual-panel structure with a clear, hierarchical, and cascading sequence. The motion is smooth and directs the viewer's attention systematically from top to bottom.
+The animation for Template 11 is characterized by a smooth main entrance followed by a continuous, looping marquee-style animation for its core content.
 
-1.  **Initial Panel Entrance:** The animation begins with the two main vertical panels sliding into view simultaneously. The light-colored left panel slides in from the left edge, while the dark-colored right panel slides in from the right edge. The motion is smooth with a gentle ease-out curve. As the panels settle into their final positions, the two main title placeholders fade in quickly and crisply.
+1.  **Initial Scene Entrance:** The animation begins with a large, dark, rounded-corner container sliding in from the right edge of the screen. The motion has a prominent ease-out curve, starting quickly and gently decelerating as it settles into its final position, covering about two-thirds of the view.
 
-2.  **Cascading Bar Reveal:** Once the main panels are in place, the list item containers are revealed in a synchronous, top-to-bottom cascade.
-    *   **Symmetrical Animation:** The first list item on the left and the first list item on the right animate in at the same time, followed by the second pair, and so on, with a consistent stagger between each pair.
-    *   **Left Panel Motion:** For each item on the left, the circular icon placeholder at the start of the bar pops into view with a quick scale-up animation. Immediately following this, the rectangular bar extends smoothly from the icon placeholder towards the right until it reaches its full width.
-    *   **Right Panel Motion:** In a mirror-image effect, the icon placeholder on the right side pops in at the end of the bar. The rectangular bar then extends smoothly from the icon placeholder towards the left to complete the item.
+2.  **Hierarchical Element Build-in:** Immediately following the main container, its internal components animate in with a subtle stagger:
+    *   The main rectangular content area at the bottom slides up smoothly from the bottom edge of the container.
+    *   Concurrently, the title container at the top left slides down from the top edge.
+    *   Both animations are quick and share the same smooth easing, establishing the template's structure efficiently.
 
-3.  **Sequential Text Population:** After all structural bars have fully animated into their final state, the text placeholders are revealed. This phase also follows the same top-to-bottom cascading sequence established in the previous step.
-    *   For each corresponding pair of list items (e.g., the top item on the left and the top item on the right), the text animates in simultaneously.
-    *   The text on the left side performs a subtle slide-in from the left edge combined with a fade-in.
-    *   The text on the right side performs a symmetrical slide-in from the right edge, also combined with a fade-in.
-    *   This sequential reveal continues down the list, providing a polished and orderly finish to the animation sequence.
+3.  **Continuous Content Carousel:** The central feature is a horizontal strip of pill-shaped containers that scrolls continuously from right to left with a steady, linear pace, creating a marquee effect.
+    *   **Scrolling Motion:** The entire strip of pills moves as one unit without any easing between items, maintaining a constant velocity.
+    *   **Content Synchronization:** As a pill container scrolls past the center point towards the left, its text placeholder smoothly fades to full transparency. Simultaneously, the next pill container scrolling into the center has its text placeholder fade in from transparent to fully opaque. The icon placeholders within the pills remain visible at all times. This creates a seamless, looping presentation of items.
+
+4.  **Exit Sequence:** To conclude, the entire main container, along with all its child elements (title, content area, and scrolling pills), animates out in unison. It slides off towards the right, mirroring the entrance animation but with a smooth ease-in curve, accelerating as it moves off-screen.
 
 ---
 
@@ -231,20 +234,18 @@ The animation for Template 11 is built on a symmetrical, dual-panel structure wi
 
 ## Animation Breakdown
 
-The animation for Template 12 builds two parallel comparison lists with a clean, sequential flow that emphasizes structure before revealing content.
+The animation for Template 12 is executed in a clear, multi-stage sequence that guides the viewer's attention methodically across the layout. The motion is organized, quick, and professional.
 
-1.  **Header Reveal (0.0s - 0.5s):** The animation begins with the simultaneous entrance of the header elements for both the left ("Pros") and right ("Cons") columns.
-    *   **Icons:** The square icon containers in both headers pop into view, scaling up quickly from the center with a crisp ease-out motion.
-    *   **Divider Lines & Text:** Immediately following the icon pop, a horizontal divider line under each icon animates, drawing itself from left to right with a smooth, linear wipe. As the line completes its animation, the header text fades in gently above it.
+1.  **Split-Screen Panel Reveal:** The animation begins with a swift split-screen effect. The left-side light container and its title slide in from the left edge, while the right-side dark container and its title slide in simultaneously from the right edge. Both panels move with a smooth ease-out curve, quickly establishing the two main columns of the template.
 
-2.  **Sequential Container Draw (0.5s - 2.0s):** Once the headers are established, the rounded rectangular list item containers are drawn into view.
-    *   **Staggered Sequence:** The containers appear sequentially from top to bottom in both columns simultaneously. There is a noticeable, short delay between the appearance of each container, creating a rhythmic, cascading effect down the lists.
-    *   **Motion:** Each container outline is animated using a "trim paths" or "line draw" effect. The line starts drawing from the top-left corner and proceeds clockwise around the shape's perimeter at a steady, fluid pace.
+2.  **List Item Container Build-Up:** Immediately after the main panels settle, the list item containers animate in. This happens almost simultaneously on both sides but with mirrored directions:
+    *   **Left Side:** The four rounded rectangular containers animate in sequentially from top to bottom. Each container performs a rapid horizontal "wipe" or "growth" motion from right to left, originating from the icon's position.
+    *   **Right Side:** In parallel, the four containers on the right also animate in sequentially from top to bottom. Their motion is a mirror image, wiping or growing horizontally from left to right.
+    *   **Icons:** The circular icon placeholders for each list item appear to fade and scale into view concurrently with their respective container's animation. The overall effect is a very fast, cascading build of the structural list elements.
 
-3.  **Content Population (2.0s onwards):** After all containers are fully drawn and in their final positions, their internal content animates in. The animation follows a clear hierarchy.
-    *   **Column by Column Flow:** The content for the left column populates first, from top to bottom. Once the left column is complete, the animation proceeds to the right column, again populating from top to bottom.
-    *   **Text Animation:** The text within each list item uses a "typewriter" effect, appearing character-by-character from left to right. This creates a sense of dynamism and active information entry.
-    *   **Icon Animation:** Just before the text begins typing in each container, its corresponding small icon on the left (plus or minus sign) quickly scales up into view, providing a subtle visual cue.
+3.  **Left Column Text Population:** Once all list containers are in place, the animation focuses on populating the left column. The text placeholders fade in sequentially from top to bottom with a short, consistent delay between each item. This draws the eye down the list on the left side.
+
+4.  **Right Column Text Population:** After the text on the left has fully appeared, the sequence repeats for the right column. The text placeholders on the right side fade in sequentially from top to bottom, completing the template's content reveal. This distinct two-phase text animation creates a clear reading order: all of column one, then all of column two.
 
 ---
 
@@ -252,20 +253,23 @@ The animation for Template 12 builds two parallel comparison lists with a clean,
 
 ## Animation Breakdown
 
-The animation for Template 13 is characterized by a rapid, multi-part entrance followed by a clear, sequential content reveal.
+The animation for Template 13 is characterized by a "drawing" or "path reveal" motion, building two parallel lists with a clear, hierarchical sequence for content population. The overall feel is dynamic, modern, and crisp.
 
-1.  **Foundation Animation (0.0 - 0.5s):** The core layout elements animate into place nearly simultaneously with snappy, distinct motions.
-    *   **Title Container:** A small shape at the top left quickly expands horizontally to the right, forming the main title bar with a smooth, decisive motion.
-    *   **Icon Placeholder:** The large triangular icon outline on the left slides in from the left and slightly down. It has a subtle bounce or overshoot as it settles into place, adding a touch of dynamic energy.
-    *   **List Containers:** Four list item containers on the right expand horizontally from a central point, appearing in a rapid top-to-bottom sequence. This creates a quick, cascading build effect.
+1.  **Header Introduction:** The animation begins with the simultaneous entrance of the headers for both the left and right columns.
+    *   The square icon placeholders (plus and minus) pop into view with a fast scale-up animation that has a subtle, springy overshoot effect.
+    *   Immediately following the icons, the header text placeholders are revealed. This happens via a line that is "drawn" from left to right underneath the text area, with the text placeholder itself wiping into view in sync with the line's movement. This occurs in parallel for both columns.
 
-2.  **Icon Detail Animation (0.5 - 1.0s):** Immediately after the structural elements are placed, attention is drawn to the icon placeholder with secondary animations.
-    *   The two components of the inner icon (exclamation mark) pop into view, scaling up quickly from the center.
-    *   Simultaneously, small "alert" lines radiate outwards from the top corners of the triangle, scaling up and fading in to add emphasis.
+2.  **Structural List Build-up:** Once the headers are in place, the rounded rectangular containers for the list items are revealed.
+    *   The containers are animated using a "path drawing" effect, where the outline of each shape appears to be traced quickly.
+    *   This animation happens sequentially from top to bottom for both lists simultaneously. The first container on the left and the first on the right are drawn at the same time, followed by the second pair, and so on, creating a perfectly synchronized cascading effect down both columns.
 
-3.  **Sequential Content Reveal (1.0 - 4.5s):** Once the layout is stable, the placeholder text content animates in with a clear hierarchy.
-    *   First, the title text fades into place.
-    *   Following this, the text for each of the four list items is revealed in a staggered, top-to-bottom sequence. Each line of text animates with a very fast wipe-in from the left, guiding the viewer's eye down the list one point at a time. The delay between each item is consistent, creating a clean and readable rhythm.
+3.  **Left Column Content Population:** After all structural containers are fully drawn, the placeholder content for the left column animates in, directing the viewer's focus to this side first.
+    *   The population happens sequentially, one item at a time, from top to bottom.
+    *   For each item, the small icon on the left appears instantly, followed by the text placeholder which wipes in rapidly from left to right. There is a short, consistent delay between each item animating in.
+
+4.  **Right Column Content Population:** Once the left column is fully populated, the animation sequence repeats for the right column.
+    *   This phase begins only after the last item on the left has finished its animation.
+    *   The content populates sequentially from top to bottom, with the same motion mechanics: the icon appears instantly, and the text placeholder wipes in from left to right. This sequential reveal on the right side mirrors the timing and rhythm established on the left.
 
 ---
 
@@ -273,15 +277,22 @@ The animation for Template 13 is characterized by a rapid, multi-part entrance f
 
 ## Animation Breakdown
 
-The animation for Template 14 unfolds in a clean, two-stage sequence, establishing the main elements first, followed by a cascading reveal of list items. The motion is energetic yet professional, using a combination of scaling and sliding effects.
+The animation for Template 14 unfolds in a rapid and highly synchronized sequence, building the layout with a clear visual hierarchy from left to right.
 
-1.  **Primary Elements Entrance:** The animation begins with two elements appearing simultaneously.
-    *   **Main Icon Container (Right):** A large, rounded-square container on the right animates in with a dynamic scale-up motion. It appears to grow from about 80% to 105% of its final size before settling back down, creating a subtle and engaging spring or overshoot effect. This gives the entrance a lively feel.
-    *   **Title Container (Top-Left):** At the same time, the title container slides in crisply from the left edge of the screen. Its motion is a smooth and quick slide with a standard ease-out curve, bringing it to its final position without any bounce.
+1.  **Initial Element Entrance:** The animation begins with three elements appearing simultaneously.
+    *   **Title Header:** The rectangular title container on the top left slides down smoothly from the top edge with a crisp ease-out motion.
+    *   **Icon Outline:** The large triangular icon outline on the left draws itself in a quick, clockwise motion, starting from the bottom-left corner. Simultaneously, the small radiating "alert" lines draw themselves outwards from the icon.
+    *   **First List Item:** The first rounded rectangle container on the right appears instantly, expanding horizontally from left to right in a very fast wipe-like reveal.
 
-2.  **Sequential List Reveal:** After a very brief pause, allowing the primary elements to settle, a vertical stack of three list item containers animates in on the left, below the title.
-    *   **Motion:** Each of the three containers slides in from the left edge, mirroring the entrance direction of the title container.
-    *   **Timing and Stagger:** The containers do not appear at once. They are revealed sequentially from top to bottom with a consistent, short delay between each one. This staggered timing creates a clean and organized cascading effect, smoothly guiding the viewer's eye down the list. The motion is smooth with a clear ease-out, coming to a soft stop.
+2.  **Icon Accent Animation:** Immediately following the outline draw, the icon's inner placeholder element animates.
+    *   The exclamation mark shape scales up from the center with a subtle and quick bounce effect, giving it a lively pop as it settles into place.
+
+3.  **Sequential List Build:** The remaining list item containers on the right animate in with a slight, uniform stagger.
+    *   Following the appearance of the first item, the second, third, and fourth containers animate in sequentially.
+    *   Each container uses the same crisp, horizontal expansion from left to right, creating a clean and rhythmic cascading effect that builds the list downwards.
+
+4.  **Content Reveal:** The placeholder text animates in last, synchronized with the container animations.
+    *   As each list container finishes its expansion animation, the placeholder text within it appears instantly. This sequential reveal follows the same staggered timing as the containers, guiding the viewer's eye down the list.
 
 ---
 
@@ -289,17 +300,19 @@ The animation for Template 14 unfolds in a clean, two-stage sequence, establishi
 
 ## Animation Breakdown
 
-The animation for Template 15 is characterized by a deliberate, sequential reveal of list items, creating a clear and focused presentation flow. The primary elements on the left, the main title and large icon container, are static and present from the beginning, acting as an anchor for the composition.
+The animation for Template 15 unfolds with a clean, parallel, and sequential reveal, guiding the viewer's focus in a logical flow from top to bottom.
 
-The animation unfolds as a series of identical, staggered entrance animations for each list item on the right.
+1.  **Initial Header & Icon Entrance:** The animation begins with two elements entering the screen concurrently.
+    *   The title container at the top left slides in smoothly from the left edge.
+    *   Simultaneously, the large icon container on the right slides in from the right edge.
+    *   Both elements move with a coordinated, smooth ease-out curve, giving the impression they are "opening" the scene. They also appear to fade in as they move into position.
 
-1.  **List Item Entrance:** Each list item appears individually with a significant pause between them, allowing the viewer to focus on one point at a time. The animation for each item is a quick, two-part sequence.
+2.  **Sequential List Reveal:** Immediately following the entrance of the primary elements, a vertical stack of three list item containers animates in on the left, below the title.
+    *   The containers appear sequentially from top to bottom.
+    *   Each container slides into place from the left with a crisp, quick motion.
+    *   A distinct, short stagger or delay between each item's animation creates a clean cascading or waterfall effect, drawing the eye downwards through the list.
 
-2.  **Icon Placeholder Animation:** The circular icon placeholder initiates the sequence for each list item. It animates in by scaling up from 0% to approximately 105% of its final size before settling back to 100%. This creates a lively and engaging "pop" or bounce effect. The scaling is coupled with a simultaneous fade-in from 0% to 100% opacity.
-
-3.  **Text Container Animation:** Following a micro-delay after the icon appears, the corresponding rounded rectangular text container animates in. It slides and expands horizontally from left to right, appearing to emerge from underneath the icon placeholder. This movement is very fluid, with a smooth ease-out curve, creating a crisp and clean reveal.
-
-4.  **Overall Pacing and Hierarchy:** The animation uses a distinct staggered timing to build the list vertically, from top to bottom. The significant delay between each list item's appearance dictates a slow, methodical pace. This hierarchy ensures that attention is drawn to each new point as it is introduced, making it ideal for presentations where each item requires individual explanation before the next is shown.
+3.  **Final Composition:** The animation is quick and efficient, with all elements coming to a gentle stop without any bounce or overshoot effects. The sequence resolves into a static, stable layout, having effectively built the visual hierarchy from the main topic to its supporting points.
 
 ---
 
@@ -307,18 +320,15 @@ The animation unfolds as a series of identical, staggered entrance animations fo
 
 ## Animation Breakdown
 
-The animation for Template 16 builds the card's content with a quick, dynamic, and layered sequence. The motion is energetic and establishes the visual hierarchy from the icon down to the title.
+The animation for Template 16 is characterized by a clean, sequential reveal of list items, creating an organized and rhythmic flow. The primary visual elements on the left, the title bar and the main icon container, are static and present from the start, serving as a stable anchor for the animation.
 
-1.  **Initial State:** The main, blue rounded-square container is static and present from the start. All animations occur within its boundaries.
+1.  **Sequential List Item Entrance:** The core animation involves a series of pill-shaped list item containers appearing sequentially on the right side of the screen, from top to bottom. Each item appears with a consistent, short delay after the previous one, creating a clean cascading or waterfall effect.
 
-2.  **Icon Placeholder Reveal (0.0s - 0.5s):** The animation begins immediately with a complex, multi-part reveal of the icon placeholder. Different abstract shapes composing the final icon slide in from various directions to assemble the graphic. This happens with a crisp, fast, and slightly overlapping motion, giving it a mechanical and precise feel.
+2.  **Individual Item Animation Mechanics:** Each list item follows a distinct two-part animation sequence that is quick and energetic:
+    *   **Icon "Pop":** The animation for each item begins with its circular icon placeholder on the left. This circle rapidly scales up from 0% to 100% size while simultaneously fading in from 0% to 100% opacity. The motion has a subtle but distinct overshoot or "pop" at the end, giving it a bouncy and engaging feel.
+    *   **Text Container Wipe:** Immediately following the icon's appearance, the connected pill-shaped text container animates. It performs a swift horizontal wipe-reveal, expanding from left to right, originating from the edge of the icon. This expansion has a smooth ease-out curve, feeling crisp and decisive. The placeholder text within becomes visible as the container expands to its full width.
 
-3.  **Title Container Entrance (0.1s - 0.6s):** Almost simultaneously with the icon reveal, the title container at the bottom animates into view. It performs two actions in parallel:
-    *   **Scale:** It expands horizontally from a width of zero at its center to its full width.
-    *   **Fade:** It transitions from 0% to 100% opacity.
-    This combination creates a smooth, gentle appearance with an ease-out curve that contrasts with the sharp icon animation.
-
-4.  **Text Reveal (0.6s - 1.0s):** Once the title container has settled into its final size and position, the placeholder text animates in. It uses a very fast, character-by-character reveal that mimics a rapid typing effect, drawing the eye to the title as the final element in the sequence. The entire animation resolves quickly, with all elements in place in about one second.
+3.  **Timing and Pacing:** The hierarchy is clearly defined by the staggered timing. The viewer's attention is guided down the list in a predictable rhythm. The animation for each individual item is very fast (snappy), but the pause between each item in the sequence makes the overall presentation feel controlled and easy to follow. There are no holds or pauses within the animation of a single item.
 
 ---
 
@@ -326,20 +336,19 @@ The animation for Template 16 builds the card's content with a quick, dynamic, a
 
 ## Animation Breakdown
 
-The animation for Template 17 is dynamic and playful, using rapid, cascading motions to build the layout and clear hover states for interactivity. The sequence is designed to feel responsive and energetic.
+The animation for Template 17 is playful and energetic, using a combination of layered motion, bouncy easing, and staggered timing to reveal the content within a central card. The entire sequence happens quickly, creating a dynamic and engaging effect.
 
-1.  **Initial Container Expansion:** The animation begins with a single rounded square container on the left. Almost instantly, two identical containers animate out from its right edge. This is a very fast and energetic motion where the new containers slide horizontally to the right while simultaneously scaling up from a point source to their final size. The movement has a distinct, springy ease-out curve, giving it a slightly bouncy and elastic feel as the containers settle into place.
+1.  **Initial State:** The animation begins with a single, static, rounded square container positioned in the center of the frame.
 
-2.  **Cascading Icon Entrance:** Immediately following the container expansion, the icon placeholders appear. They animate sequentially from left to right with a very short delay between each one. Each icon placeholder drops into place from the top edge of its parent container. This vertical slide motion concludes with a noticeable bounce or overshoot, where the icon dips slightly below its final position before settling up into place.
+2.  **Icon Placeholder Reveal:** The animation kicks off with the rapid assembly of the icon placeholder. This is a multi-part motion:
+    *   Two subtle background elements for the icon slide in diagonally from the bottom-left and bottom-right corners of the icon area, settling at the top.
+    *   Almost simultaneously, the main components of the icon itself scale up and fade in with a staggered timing. The lower component appears a fraction of a second before the upper-left component. This "pop-in" motion has a slight overshoot, giving it a soft, bouncy feel.
 
-3.  **Cascading Title Bar Entrance:** Following the same left-to-right cascade as the icons, the bottom title bar containers animate in. Each bar slides up smoothly from the bottom edge of its parent container. The motion is quick and uses a crisp ease-out curve, coming to a sharp stop without any bounce. This animation is timed to begin just as the icon in the same column is settling.
+3.  **Title Container Animation:** Immediately after the icon settles, the title container animates from the bottom of the main card.
+    *   A colored background bar slides up from the bottom edge with a distinct elastic or spring-like easing. It overshoots its final position before quickly bouncing back and settling.
+    *   This motion acts as a reveal for the primary title container, which scales up vertically from 0% to 100% as it appears.
 
-4.  **Progressive Text Reveal:** The final step of the entrance animation is the population of the text within the title bars. The placeholder text reveals itself with a rapid, letter-by-letter typing effect, again progressing in a staggered sequence from the left container to the right.
-
-5.  **Interactive Hover State:** The template includes a clear hover effect. When a cursor hovers over any of the three main containers, two things happen simultaneously:
-    *   **Scale:** The entire container (including its icon and title bar) smoothly scales up slightly (e.g., to 105% of its original size).
-    *   **Color Transition:** The background color of the main container smoothly fades to a new state.
-    *   Upon moving the cursor away, the container gracefully scales back down and fades back to its original color. This provides clear visual feedback for user interaction.
+4.  **Text Reveal:** Once the title container animation concludes, the placeholder text inside it animates. The text fades in smoothly and quickly, marking the end of the entrance sequence.
 
 ---
 
@@ -347,17 +356,21 @@ The animation for Template 17 is dynamic and playful, using rapid, cascading mot
 
 ## Animation Breakdown
 
-The animation for Template 18 unfolds in a clean, multi-phase sequence that directs attention from the overall structure to the detailed content. The motion is smooth and hierarchical, creating a professional and organized feel.
+The animation for Template 18 builds a three-card layout using a fluid and sequential process that clearly guides the viewer's eye from the overall structure to the detailed content.
 
-1.  **Simultaneous Container Entrance:** The animation begins with two concurrent movements.
-    *   On the left, the main title placeholder and all four pill-shaped text containers slide in together from the left edge. The motion is fluid and concludes with a gentle ease-out, quickly establishing the layout's primary list structure.
-    *   Simultaneously, the large, rounded rectangular container on the right slides in from the bottom of the frame, settling into place with a similar smooth ease-out curve. This parallel animation creates a dynamic and balanced introduction.
+1.  **Card Formation:** The animation begins with the three primary card containers animating into place. They appear to scale up from a single point into their final size. This happens in a rapid, staggered cascade from left to right, giving a quick and dynamic feel to the layout's creation. The motion has a smooth ease-out curve.
 
-2.  **Staggered Icon Reveal:** Once the containers are in their final positions, the circular icon placeholders on the left animate in. They appear sequentially from top to bottom with a slight delay between each one, creating a clean cascading effect. Each icon animates with a quick "pop" (scaling up from 0% to 100%) that includes a subtle bounce or overshoot, giving the reveal a lively feel.
+2.  **Content Entrance:** Once the three card containers have settled, their internal elements animate in concurrently.
+    *   The large icon placeholder in the upper portion of each card slides up from the bottom of its container while simultaneously fading into view.
+    *   The pill-shaped text container at the bottom of each card also slides up from the bottom edge of its parent card.
+    *   This entrance animation is synchronized across all three cards and uses a smooth, decisive motion.
 
-3.  **Main Icon & Text Population:** This final phase populates the containers with content.
-    *   The large placeholder icon within the right-side container fades in while simultaneously scaling up slightly. This animation is subtle and smooth.
-    *   Following the same top-to-bottom staggered sequence as the icons, the text placeholders within the pill-shaped containers on the left fade in. Each text element appears just after its corresponding icon has finished its animation, reinforcing the visual hierarchy and guiding the viewer's eye down the list.
+3.  **Text Reveal:** Following the entrance of the content containers, the placeholder text animates within each bottom pill container. The text appears via a quick, left-to-right typing effect, populating all three cards simultaneously.
+
+4.  **Interactive Focus State:** The template demonstrates a focus or hover state that cycles sequentially through the cards.
+    *   When a card is in focus, its background color transitions with a seamless cross-fade.
+    *   Simultaneously, the text container within the focused card also undergoes a subtle color change.
+    *   The focus moves smoothly from one card to the next, with the previously focused card fading back to its default state as the next one becomes active. This loop demonstrates the template's interactive potential.
 
 ---
 
@@ -365,15 +378,22 @@ The animation for Template 18 unfolds in a clean, multi-phase sequence that dire
 
 ## Animation Breakdown
 
-The animation for Template 19 unfolds in two distinct, sequential phases, creating a clear visual hierarchy by first building the structure and then populating it with content. The overall motion is clean, organized, and follows a bottom-to-top sequence.
+The animation for Template 19 unfolds in a structured and visually engaging sequence, using coordinated movements and staggered timing to guide the viewer's focus.
 
-1.  **Staggered Container Entrance:** The animation begins with the five list item containers appearing in a staggered, bottom-up cascade.
-    *   **Sequence:** The first container (labeled "1") animates in, followed by the second, third, fourth, and fifth containers in numerical order. There is a consistent, short delay between the start of each container's animation, creating a smooth, overlapping waterfall effect.
-    *   **Motion & Easing:** Each container slides into its final position from the bottom-left. The motion has a fluid and polished feel, utilizing a distinct ease-out curve where it starts quickly and gently decelerates to a stop without any bounce or overshoot.
+1.  **Title Entrance:** The sequence begins with the title text area, which animates into place with a subtle and quick fade-in and slide-up motion from a slightly lower position. This happens very fast, establishing the header.
 
-2.  **Sequential Text Reveal:** After all five containers have settled into their final positions, there is a brief pause. The placeholder text content is then revealed sequentially.
-    *   **Sequence:** Following the same bottom-to-top order, the text for item 1 animates in, followed by the text for item 2, and so on, until all five items are populated. This reinforces the visual flow established in the first phase.
-    *   **Motion & Easing:** The text for each item animates in with a quick and crisp motion. It combines a fast fade-in (from 0% to 100% opacity) with a subtle slide-up from a position slightly below its final baseline. This animation is much faster and more subtle than the container entrance, ensuring it feels like a content reveal rather than a structural change.
+2.  **Main Structure Entrance:** Immediately following the title, the primary layout elements animate in concurrently.
+    *   The large, rounded rectangular container on the right slides in smoothly from the right edge.
+    *   Simultaneously, the first list item on the left (composed of a circular icon placeholder and a pill-shaped text container) slides in from the left edge.
+    *   Both animations use a smooth ease-out curve, starting fast and gently decelerating as they reach their final positions.
+
+3.  **List Cascade & Icon Flip:** The remaining three list items animate in sequentially from top to bottom.
+    *   Each item slides in from the left with a short, consistent delay after the one above it, creating a clean cascading effect.
+    *   As each list item's container settles into its final position, its circular icon placeholder executes a quick, crisp 360-degree flip along its vertical (Y) axis. This adds a delightful and dynamic micro-interaction to the sequence.
+
+4.  **Content Reveal:** Once all structural elements are in place, the placeholder content is revealed.
+    *   The large icon within the right container fades into view.
+    *   Almost simultaneously, the text placeholders within the list items on the left fade in sequentially, following the same top-to-bottom staggered timing as their containers. This reinforces the downward flow of the animation.
 
 ---
 
@@ -381,23 +401,17 @@ The animation for Template 19 unfolds in two distinct, sequential phases, creati
 
 ## Animation Breakdown
 
-The animation for Template 20 is characterized by a dynamic, symmetrical entrance and exit of its core components, followed by a subtle content reveal.
+The animation for Template 20 builds the scene in two distinct, sequential phases, creating a clear and organized visual hierarchy. The motion is clean, rhythmic, and flows from bottom to top.
 
-1.  **Dual Panel Entrance:** The animation initiates with two main containers sliding into the frame simultaneously from opposite corners.
-    *   The left container travels diagonally from the bottom-left corner to its final position.
-    *   The right container travels diagonally from the top-right corner to its final position.
-    *   The motion is synchronized, with a smooth ease-out curve, ensuring the containers settle gracefully without any bounce or overshoot. All internal elements (title bar, icon placeholders, and text box placeholders) are contained within and move with their respective parent containers.
+1.  **Phase 1: Structural Cascade (0-4.5s):** The primary structure, consisting of five numbered list items, animates onto the screen.
+    *   **Sequence:** The list items appear sequentially, starting from the bottom item (1) and progressing to the top item (5).
+    *   **Motion:** Each list item, composed of a number placeholder and a connected text container, slides in horizontally from the right edge of the screen.
+    *   **Timing & Pacing:** The entrance of each item is staggered with a consistent delay, creating a smooth, upward cascading effect. The motion itself is quick yet smooth, utilizing an ease-out curve that allows each element to settle into place without any bounce or overshoot.
 
-2.  **Paired Content Population:** Shortly after the containers lock into place, the text box placeholders at the bottom are populated in a quick, two-step sequence.
-    *   First, the leftmost text box in each container ("Box 1" and "Box 3") fades in simultaneously.
-    *   Immediately after, the rightmost text box in each container ("Box 2" and "Box 4") fades in simultaneously.
-    *   This creates a rapid, staggered fade-in effect that draws attention to the content areas after the main structure is established.
-
-3.  **Hold State:** The template remains in a static state after all entrance animations are complete, allowing for content engagement.
-
-4.  **Symmetrical Exit:** The exit animation is a clean reversal of the entrance sequence.
-    *   Both main containers slide out diagonally and simultaneously, retracting towards the corners they originated from.
-    *   The exit motion uses a smooth ease-in curve, accelerating off-screen cleanly.
+2.  **Phase 2: Content Reveal (4.5-11.0s):** Once all structural containers have settled into their final positions, the placeholder text content animates in.
+    *   **Sequence:** Mirroring the first phase, the text is revealed sequentially from the bottom item to the top item.
+    *   **Motion:** Each line of text animates in with a very fast, subtle upward slide combined with a simultaneous fade-in. This gives the appearance of the text being quickly unveiled within its container.
+    *   **Timing & Pacing:** There is a distinct pause between the structural animation and the content reveal, clearly separating the two phases. The text animations are staggered with a noticeable delay between each line, reinforcing the bottom-to-top flow and guiding the viewer's focus methodically through the list.
 
 ---
 
@@ -405,15 +419,15 @@ The animation for Template 20 is characterized by a dynamic, symmetrical entranc
 
 ## Animation Breakdown
 
-The animation for Template 21 is characterized by a quick, dynamic, and clean reveal sequence that focuses attention on the central element first, followed by its associated label.
+The animation for Template 21 is characterized by a synchronized, opposing slide-in motion for the main containers, followed by a layered reveal of the internal content. The overall feel is modern, clean, and efficient.
 
-1.  **Central Hexagon and Image Reveal:** The animation starts with the central hexagonal container already in place. The sequence begins with two simultaneous actions:
-    *   **Image Scale:** The image placeholder inside the hexagon rapidly scales up from a smaller size (approximately 80%) to fill the container completely. This motion is very quick and has a smooth ease-out curve, creating a "pop-in" effect.
-    *   **Background Fill:** Concurrently, the hexagon's background color fills the shape. The fill expands dynamically from the center outwards, giving it a more energetic feel than a simple fade-in.
+1.  **Main Container Entrance:** The animation initiates with the two primary vertical containers sliding into the frame simultaneously from opposite directions. The left container slides down from the top edge, and the right container slides up from the bottom edge. This opposing motion is smooth and uses a distinct ease-out curve, allowing the containers to settle into their final positions without any bounce or overshoot.
 
-2.  **Text Banner Entrance:** Immediately after the hexagon and image are fully revealed and settled, a text banner animates into place.
-    *   **Motion:** The banner slides out from behind the top-left edge of the hexagon.
-    *   **Direction & Feel:** It moves in a short, swift, and slightly curved path, settling crisply along the edge. This gives the impression of it being attached to and swinging out from the main shape. The motion is snappy and precise, with no bounce or overshoot. The sequence creates a clear hierarchy, establishing the main visual before presenting the textual information.
+2.  **Primary Content Reveal:** Immediately after the main containers lock into place, the content within them appears. The two title placeholders and the four icon placeholders all animate in at the same time. Their animation is a combination of a quick scale-up (from approximately 80% to 100%) and a fade-in. This gives them a crisp and energetic "pop-in" effect.
+
+3.  **Secondary Content Cascade:** Following the primary content reveal, the four smaller text box placeholders at the bottom of the containers fade in sequentially. The sequence proceeds from left to right, starting with the leftmost box in the left container and ending with the rightmost box in the right container. This staggered timing creates a subtle, flowing cascade that draws the viewer's eye across the entire template.
+
+4.  **Exit Animation:** The template exits by reversing the entrance sequence. Both primary containers slide off-screen in their original directions—the left container slides up and out, while the right container slides down and out. All internal content remains static within the containers as they move.
 
 ---
 
@@ -421,19 +435,13 @@ The animation for Template 21 is characterized by a quick, dynamic, and clean re
 
 ## Animation Breakdown
 
-The animation for Template 22 establishes a dynamic chat interface with energetic entrance animations followed by a clear, conversational message flow. The motion is clean, with subtle physics that give the elements a modern and lively feel.
+The animation for Template 22 builds a character or profile reveal with a sequence of quick, playful motions that layer information effectively.
 
-1.  **Profile Card Entrance:** The sequence begins with the two main profile card containers on the right. They slide in sequentially from the right edge of the screen. The motion is not a simple slide; it has a prominent but smooth ease-out curve with a distinct overshoot effect. Each card slides slightly past its final position before snapping back, giving the entrance a bouncy and elastic quality. The first card enters, followed by the second with a very short delay, creating a satisfying overlapping action.
+1.  **Image Placeholder Settle:** The animation begins with the hexagonal container already in place. The image placeholder within it performs a subtle scale and pan animation. It scales up slightly while simultaneously moving down, creating a smooth "settling in" effect that reveals the full subject. The motion is gentle with an ease-out curve.
 
-2.  **Name Placeholder Reveal:** Immediately after the two profile cards settle into their final positions, the name text placeholders inside each card animate in. They appear with a very quick and crisp "pop" effect, which is a combination of a rapid scale-up from a smaller size and a simultaneous fade-in. This happens almost instantly after the cards land.
+2.  **Speech Bubble Tail Pop-in:** Immediately following the image settle, a small speech bubble tail element animates in from behind the top-left edge of the hexagon. It slides out and rotates slightly clockwise into its final position. This movement is very quick and has a snappy, almost bouncy feel, adding a touch of personality.
 
-3.  **Sequential Message Reveal:** The chat messages on the left animate in one by one, creating the effect of a live conversation.
-    *   **Motion:** Each chat bubble placeholder scales up from approximately 80% to 100% while simultaneously fading in from 0% to 100% opacity.
-    *   **Transform Origin:** The scale animation originates from the corner of the bubble where its tail points, making it appear to grow outwards from its source.
-    *   **Timing:** The messages appear in a staggered, sequential order with a consistent delay between each one, establishing a natural conversational rhythm.
-    *   **Name Label:** The small name label placeholder above each message bubble fades in concurrently with its corresponding bubble.
-
-4.  **Overall Pacing and Hierarchy:** The animation establishes a clear visual hierarchy. The initial, energetic entrance of the profile cards quickly establishes the participants. The subsequent, more measured pacing of the chat bubbles shifts the viewer's focus to the conversation itself. The combination of the bouncy slide and the crisp scaling provides a dynamic yet polished feel throughout the sequence.
+3.  **Name Tag Entrance:** After the tail appears, the text placeholder for the name animates in. It slides down from a position above the top-left edge of the hexagon, following a slight arc. As it slides, it also rotates counter-clockwise to align perfectly with the angle of the hexagon's edge. The animation is smooth and crisp, with a clear ease-out as it comes to a stop. The sequence creates a clear visual hierarchy, first establishing the subject, then adding a contextual graphic, and finally providing a label.
 
 ---
 
@@ -441,35 +449,39 @@ The animation for Template 22 establishes a dynamic chat interface with energeti
 
 ## Animation Breakdown
 
-The animation for Template 23 is energetic and builds the layout from the bottom up with a clear visual hierarchy and lively motion.
+The animation for Template 23 is structured as a dynamic conversation, beginning with the introduction of two primary elements, followed by a sequential reveal of chat messages. The motion is crisp, modern, and guides the viewer's attention chronologically through the dialogue.
 
-1.  **Initial Shape Transition:** The sequence begins with a small, light blue capsule shape positioned at the bottom center of the screen. This shape rapidly morphs, expanding horizontally while its color intensifies into a more vibrant blue, transforming into a wide, rounded rectangle. This motion is extremely quick and fluid.
+1.  **Image Container Entrance:** The sequence begins with the two main vertical image containers sliding in from the right edge of the frame.
+    *   **Motion:** A smooth slide-in from the right.
+    *   **Timing:** The containers enter sequentially with a very brief delay between the first and the second, creating a quick, staggered effect.
+    *   **Easing:** The motion uses an ease-out curve, starting fast and gently decelerating as the containers settle into their final positions.
 
-2.  **Bottom Bar Wipe:** Immediately following its horizontal expansion, the blue shape animates vertically upwards in a smooth, swift motion. It functions as a dynamic wipe transition, revealing the main content area above it and establishing a solid blue bar at the bottom of the frame.
+2.  **Name Placeholder Reveal:** Immediately after the image containers lock into place, the name placeholders located at the top of each container fade into view. This is a simple, quick opacity transition from 0% to 100%.
 
-3.  **Staggered Image Placeholder Reveal:** As the blue bar moves up, three image placeholders are revealed in a staggered sequence, creating a focused and dynamic effect.
-    *   The central image placeholder is the first to slide up from behind the rising blue bar.
-    *   The left and right image placeholders then slide up in unison, starting their animation with a slight delay after the central one.
-    *   All three placeholders move with a smooth ease-out curve and settle into their final positions with a subtle, soft bounce or overshoot, adding a polished and organic feel to the motion.
+3.  **Sequential Chat Bubble Entrance:** The core animation involves the sequential appearance of chat bubbles on the left side of the screen.
+    *   **Sequence:** Each chat bubble animates in one at a time, creating the rhythm of a back-and-forth conversation.
+    *   **Motion:** The animation is a combined effect. Each bubble simultaneously scales up from approximately 0% to 100% and slides horizontally into place. The transform origin is set to the "tail" of the chat bubble, making it look like it's growing or popping out from the side.
+    *   **Easing:** The animation has a subtle bouncy or spring-like quality, with a slight overshoot before settling. This gives the motion a lively and energetic feel.
 
-4.  **Text Content Entrance:** Timed to coincide with the final settling of the image placeholders, the main title and subtitle text placeholders animate into view at the top of the frame. They appear using a quick, combined fade-in and slight slide-up motion, ensuring the composition is completed efficiently and without distraction.
+4.  **Speaker Name Animation:** For each chat bubble that appears, a corresponding speaker name placeholder fades in above it. This animation is a simple, quick fade-in that occurs concurrently with or just after its associated bubble finishes its entrance animation.
 
 ---
 
 # Template 24
 
 ## Animation Breakdown
+The animation for Template 24 is characterized by a rapid and energetic sequence, using bold shape transformations and layered reveals to build the final composition.
 
-The animation for Template 24 is a quick, energetic reveal sequence that uses a central burst transition to introduce four content placeholders simultaneously. The entire motion is designed to be fast and impactful, resolving in under a second.
+1.  **Initial Shape Transformation (0.0s - 0.5s):** The animation kicks off with a vertical capsule shape at the bottom center of the screen. It undergoes a snappy and forceful transformation, rapidly scaling up and expanding horizontally to form a wide, rounded rectangle. The motion is extremely quick with a strong ease-out feel, creating an impactful burst.
 
-1.  **Initial State & Central Burst:** The animation begins with a solid-colored circle centered on the screen. This circle immediately and rapidly expands outwards from its center point. The expansion is extremely fast with a crisp ease-out curve, creating a "pop" or "burst" effect that functions as a reveal transition.
+2.  **Background Band Formation (0.5s - 1.5s):** Immediately following the horizontal expansion, the rounded rectangle animates vertically, stretching upwards to fill the lower half of the screen and forming the main colored background band. This vertical motion is just as fast and decisive as the initial transformation, establishing the primary container for the content.
 
-2.  **Symmetrical Content Entrance:** As the central circle expands, it reveals a horizontal banner. Simultaneously, four image placeholders slide into their final positions from off-screen.
-    *   The two placeholders on the left slide in from the left side.
-    *   The two placeholders on the right slide in from the right side.
-    *   This symmetrical motion creates a pleasing visual balance as the elements converge towards the center.
+3.  **Image Placeholder Entrance (1.5s - 2.5s):** Once the background band is set, three circular image placeholders animate into view with a clear hierarchy.
+    *   The largest, central placeholder is the first to appear. It scales up from its center while simultaneously sliding up slightly from the bottom edge of the band.
+    *   Immediately after, the two smaller placeholders on the left and right animate in concurrently, using the same combination of scaling up and sliding up from the bottom.
+    *   This staggered sequence creates a pleasant wave-like effect and directs the viewer's focus first to the center, then to the sides.
 
-3.  **Synchronization and Settling:** The sliding motion of the placeholders is perfectly synchronized with the expansion of the central circle. The placeholders travel quickly and come to a stop with a very subtle and quick bounce or overshoot, giving the animation a lively and polished feel as they settle into their final layout. The entire sequence resolves almost instantly, with the circular mask fully expanded and the placeholders locked in place.
+4.  **Text Content Reveal (2.5s - 3.5s):** After all image placeholders have settled, the text elements fade into place. A large title block and smaller subtitle blocks appear above the images with a soft and quick fade-in transition. This final step completes the layout, ensuring the structural and image elements are established before the textual information is presented.
 
 ---
 
@@ -477,13 +489,17 @@ The animation for Template 24 is a quick, energetic reveal sequence that uses a 
 
 ## Animation Breakdown
 
-The animation for Template 25 unfolds in a clean, multi-stage sequence with a distinct right-to-left and top-to-bottom flow.
+The animation for Template 25 is energetic and symmetrical, revealing all elements in a single, coordinated motion.
 
-1.  **Staggered Container Entrance:** The sequence begins with five vertical, rounded containers animating onto the screen. They slide in individually from the right edge with a rapid, staggered timing. The rightmost container enters first, followed sequentially by the others, creating a swift domino-like cascade from right to left. The motion is crisp with a sharp ease-out curve.
+1.  **Central Reveal (0.0s - 0.5s):** The sequence initiates with a central circle that rapidly scales up from the center of the screen. This expanding circle acts as a reveal mask for the content behind it. The animation is very quick and has a smooth ease-out curve.
 
-2.  **Simultaneous Image Reveal:** Once all five containers have settled into their final positions, the image placeholders are revealed. This is a simultaneous action across all containers. Each image appears via a smooth vertical wipe from top to bottom, as if sliding down from behind the top edge of its container.
+2.  **Background & Placeholder Entrance (0.1s - 0.8s):** As the central circle expands, it reveals a wide rectangular background container. Simultaneously, four circular image placeholders animate into their final positions. The timing is synchronized to create a dynamic and unified entrance.
 
-3.  **Rapid Text Population:** Immediately following the image reveal, the text placeholders located above each image animate in. This is also a simultaneous action. The text appears using a very fast typewriter effect, with letters populating from left to right in a quick burst to complete the composition. The entire sequence is quick, efficient, and holds for the final static view.
+3.  **Symmetrical Placeholder Motion:** The placeholder animations are symmetrical, giving the template a balanced and polished feel.
+    *   **Outer Placeholders:** The leftmost placeholder slides in from the left edge, and the rightmost placeholder slides in from the right edge.
+    *   **Inner Placeholders:** The two central placeholders slide up from the bottom edge of the revealed background container.
+
+4.  **Motion Style & Easing:** All four placeholders move with a quick, energetic pace. Their slide animation concludes with a subtle and appealing bounce or overshoot effect, making them feel like they are snapping into place. This gives the animation a playful and modern character. The entire sequence resolves quickly, presenting the final composition in under a second.
 
 ---
 
@@ -491,28 +507,13 @@ The animation for Template 25 unfolds in a clean, multi-stage sequence with a di
 
 ## Animation Breakdown
 
-The animation of Template 26 uses a conversational, app-like flow, transitioning between a full-screen prompt and a split-screen chat interface. The motion is smooth, hierarchical, and uses text animations to create a dynamic user experience.
+The animation for Template 26 builds the scene with a clean, right-to-left flow, followed by a synchronized content reveal. The overall feel is modern and organized.
 
-1.  **Initial Prompt Build-Up:** The template opens on a dark background.
-    *   A title text animates in above a large input container using a quick, character-by-character typing effect.
-    *   Following the title, placeholder text inside the input container animates in with the same rapid typing effect.
+1.  **Staggered Container Entrance:** The animation begins with the five main vertical, pill-shaped containers sliding into view. The motion originates from the right edge of the screen and progresses sequentially from right to left. Each container has a slight delay from the one to its right, creating a smooth and elegant cascading effect. The movement uses a crisp ease-out curve, settling firmly into its final position without any bounce or overshoot.
 
-2.  **Transition to Chat Interface:** Once the prompt is complete, the scene transitions.
-    *   The entire prompt screen (title and input container) slides smoothly up and fades out, clearing the view.
-    *   Simultaneously, the layout shifts to a two-panel view (light on the left, dark on the right).
+2.  **Image Placeholder Reveal:** Once all five containers have completed their entrance animation and are stationary, the circular image placeholders are revealed. This is achieved with a synchronized wipe animation. A mask travels from the bottom to the top of each container, unveiling the image content within. This happens simultaneously across all five containers, creating a unified and sharp reveal.
 
-3.  **First Chat Exchange (User and AI Image):**
-    *   **User Side (Right):** A chat bubble containing the user's prompt slides down from the top edge. Immediately following, an image placeholder container also slides down from the top, settling below the text bubble. The image placeholder fades from semi-transparent to fully opaque as it settles.
-    *   **AI Side (Left):** A label and a corresponding image placeholder slide in from the left edge of the screen. The AI image reveals itself with a special effect: a vertical wipe mask moves from top to bottom, progressively un-blurring the image into full clarity.
-
-4.  **Scene Reset for Next Interaction:**
-    *   The entire chat interface (both user and AI elements) slides up and fades out completely. This acts as a clean wipe before the next exchange.
-
-5.  **Second Chat Exchange (User and AI Text):**
-    *   **User Side (Right):** A new user chat bubble slides down from the top, just as before.
-    *   **AI Side (Left):** An AI response block appears. First, a title element fades in. Then, a series of list items animate in sequentially from top to bottom. Each list item appears using a fast character-by-character typing animation, creating a cascading effect.
-
-6.  **Repeating Interaction Cycle:** The template repeats the reset and new exchange pattern. The screen is wiped by sliding all elements up and out, followed by a new user prompt sliding down from the top right. The AI response on the left then re-animates with the same sequential typing effect, demonstrating a reusable interaction loop.
+3.  **Simultaneous Text Animation:** Immediately following the image reveal, the text placeholders located at the top of each container animate in. The text appears using a quick "typewriter" effect, where characters are revealed rapidly from left to right. This animation occurs in parallel for all five text areas, bringing the template to its final, complete state in a swift and conclusive manner.
 
 ---
 
@@ -520,28 +521,51 @@ The animation of Template 26 uses a conversational, app-like flow, transitioning
 
 ## Animation Breakdown
 
-The animation for Template 27 simulates a dynamic chat interface, where user queries and AI responses appear in a conversational flow. The layout is split, with user content on the right and AI content on the left. The animation relies on coordinated sliding, fading, and generative effects.
+The animation for Template 27 showcases a dynamic and responsive chat interface. The sequence uses clean transitions and content-aware animations to simulate a conversation between a user and an AI.
 
-1.  **Initial Interaction & User Query:**
-    *   The sequence begins with a full-width input bar sliding up swiftly from the bottom of the screen.
-    *   Placeholder text then animates within this bar using a standard typing effect.
-    *   Upon completion, the entire input bar slides up and off-screen. It is immediately replaced by a user message bubble that slides up from the bottom of the right panel and fades in simultaneously. This motion has a smooth ease-out curve, giving it a gentle arrival. If an image is part of the query, its placeholder animates in using the same slide-up-and-fade motion just below the text bubble.
+1.  **Initial Transition to Prompt Interface:** The animation begins with a split-screen layout (light left, dark right) that fluidly transitions to a full-screen dark interface. The top light panel slides up and out of view while the bottom dark panel expands upwards to fill the screen. The motion is quick and smooth with an ease-in-out curve.
 
-2.  **AI Response - Image Generation:**
-    *   On the left (AI) panel, a text label fades in to identify the speaker.
-    *   An image placeholder then appears, initially blurred.
-    *   The final image is revealed with a distinctive "generation" effect: a smooth vertical wipe travels from the top to the bottom of the placeholder. As the wipe progresses, the image content comes into sharp focus, creating the illusion of being rendered in real-time.
+2.  **Prompt Field Entrance:**
+    *   A large, rounded rectangular prompt container animates into the center of the screen. It enters with a subtle scale-up and fade-in effect, giving it a soft landing.
+    *   Simultaneously, a header text element above the prompt container is revealed using a swift, character-by-character typing animation.
+    *   Inside the prompt container, placeholder text is replaced by a user query, also animated with a typing effect. The container dynamically and smoothly expands its height to accommodate multiple lines of text.
 
-3.  **AI Response - Text List Generation:**
-    *   For text-based responses, the AI panel first animates in a title and subtitle.
-    *   The main content, formatted as a list, is then revealed line by line. Each list item animates with a quick left-to-right typing effect, creating a staggered and highly readable sequence that directs the viewer's attention down the list.
+3.  **Transition to Chat View:** After the prompt is complete, the entire prompt interface (header and container) slides crisply upwards and off-screen. As it exits, the background transitions back to the initial split-screen layout, establishing the chat history view.
 
-4.  **Scene Transition:**
-    *   A consistent transition is used to move between conversational turns. All on-screen elements—both the user query on the right and the AI response on the left—perform a synchronized slide-up and fade-out animation. This elegantly clears the stage for the next interaction, mimicking the scrolling behavior of a chat feed.
+4.  **AI Image Response Sequence:**
+    *   **User Prompt:** On the right (dark) panel, the user's prompt appears in a rounded message bubble. It animates in with a gentle scale-up and fade-in. Below it, an attached image container fades in.
+    *   **AI Response:** On the left (light) panel, an AI response container (a large rounded square) appears with a fade-in. The image content inside is revealed with a special effect: a vertical wipe that unblurs the image from top to bottom, creating a sense of progressive generation.
 
-5.  **Pacing and Hierarchy:**
-    *   The animation pacing is crisp and efficient. User queries appear quickly, followed by a slightly more deliberate reveal for the AI's "thinking" and generation process.
-    *   The staggered reveal of text lists and the wipe-reveal for images establish a clear visual hierarchy, guiding the user's focus to the newly generated information.
+5.  **AI Text Response Sequence:**
+    *   The entire chat view slides upwards and off-screen to make way for the next exchange.
+    *   A new user prompt bubble appears on the right with the same scale-up and fade-in motion.
+    *   On the left panel, the AI's text-based response is generated. The title and list items are revealed sequentially using a character-by-character typing animation. This creates a clear visual hierarchy and simulates the AI thinking and writing in real-time.
+
+6.  **Looping Interaction:** This pattern of the entire screen sliding up to reveal the next user-AI exchange is repeated, creating a consistent and intuitive flow for a continuous conversation. The core animations for message bubbles (scale/fade-in) and AI text generation (typing effect) remain consistent throughout.
+
+---
+
+# Template 28
+
+## Animation Breakdown
+
+The animation for Template 28 simulates a dynamic, turn-by-turn conversational interface. The motion is clean and follows a consistent pattern, clearly distinguishing between the user's input and the AI's response across a split-screen layout.
+
+1.  **Initial State & Prompt Entry:** The animation begins with a full-width input container sliding up smoothly from the bottom of the screen with an ease-out curve. Inside this container, placeholder text is replaced by user-typed text, which animates with a quick, character-by-character type-on effect.
+
+2.  **Transition to User Message:** Once the prompt is submitted, the entire input container executes a fluid transition. It slides upwards and to the right while simultaneously scaling down to transform into a rounded message bubble in the user's conversation history (the right-side panel). This motion is elegant and seamless.
+
+3.  **User Content Reveal:** As the message bubble settles into place, the associated user-provided image placeholder materializes below it. It appears with a simple, clean fade-in and a subtle scale-up animation, completing the user's turn.
+
+4.  **AI Response - Image Generation:** The AI's response on the left panel begins with the "AI" label fading into view. An image placeholder container then appears, initially blurred. The final image is revealed within this container using a smooth, top-to-bottom wipe effect, as if the image is being drawn or rendered onto the screen.
+
+5.  **Scene Reset for Next Turn:** To prepare for the next exchange, all on-screen elements are cleared. The user's message bubble and image placeholder slide off-screen to the right while fading out. The AI's image container slides off-screen to the left while also fading out. This creates a clean slate for the following interaction.
+
+6.  **Subsequent User & AI Turns:**
+    *   **User Prompt:** New user message bubbles slide in from the right edge of the screen with a concurrent fade-in. The motion is crisp and direct.
+    *   **AI Text Response:** For text-based answers, the AI's response block appears on the left. The text content animates sequentially with a line-by-line type-on effect, guiding the viewer's eye down the list of points in a natural, readable rhythm.
+
+The overall pacing is conversational, with quick transitions between turns that maintain a sense of responsiveness and flow. The directional sliding animations consistently reinforce the "user vs. AI" sides of the interface.
 
 ---
 
